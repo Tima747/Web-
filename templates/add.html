@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Ks </title>
+    <link type="text/css" rel="stylesheet" href="/static/css/Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link  rel="stylesheet" href="/static/css/swiper-bundle.min.css">
+    <script src="{{ url_for('static', filename='/js/js.js') }}"></script>
+
+
+
+
+</head>
+<body>
+<header>
+     <a href="#" class="logo-text">Secret.key</a>
+     <ul class="navlist">
+        <li><a href="{{url_for('go_back') }}">Артқа</a></li>
+    </ul>
+</header>
+<section class="text">
+    <div class="slide-container swiper">
+        <div class="slide-content">
+            <div class="card wrapper swiper-wrapper">
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="/static/Image/1.jpg" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Valikhan TImur</h2>
+                        <p class="description">App development.</p>
+                    </div>
+            </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="/static/Image/2.jpg" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Zhanatbek Nurbakh</h2>
+                        <p class="description">Designer.</p>
+                    </div>
+            </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="/static/Image/1.jpg" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Valikhan TImur</h2>
+                        <p class="description">App development.</p>
+                    </div>
+            </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="/static/Image/1.jpg" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Valikhan TImur</h2>
+                        <p class="description">App development.</p>
+                    </div>
+            </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="/static/Image/1.jpg" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Valikhan TImur</h2>
+                        <p class="description">App development.</p>
+                    </div>
+            </div>
+                 <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="/static/Image/1.jpg" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Valikhan TImur</h2>
+                        <p class="description">App development.</p>
+                    </div>
+        </div>
+    </div>
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
+</div>
+    </div>
+</section>
+
+<script src="/static/js/swiper-bundle.min.js"></script>
+<script src="/static/js/js.js"></script>
+
+<button class="menu-button" onclick="toggleDropdown()">Menu</button>
+    <div class="dropdown-content">
+        <!-- Содержимое выпадающего меню -->
+        <a href="#">Ссылка 1</a>
+        <a href="#">Ссылка 2</a>
+        <a href="#">Ссылка 3</a>
+    </div>
+
+    <script>
+        function toggleDropdown() {
+            var dropdown = document.querySelector('.dropdown-content');
+            dropdown.classList.toggle('show');
+        }
+    </script>
+
+</body>
+</html>

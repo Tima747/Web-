@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Ks </title>
+    <link type="text/css" rel="stylesheet" href="/static/css/newstyle.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+
+</head>
+<body>
+<header>
+    <a href="#" class="logo">Secret.key</a>
+
+    <ul class="navlist">
+        <li><a href="{{ url_for('redirect_example') }}">Біз туралы</a></li>
+        <li><a href="{{ url_for('redirect_start') }}">Дәріс</a></li>
+        <li><a href="{{ url_for('contact_redirect') }}">Көмек</a></li>
+    </ul>
+
+    <div class="bx bx-menu" id="menu-icon"></div>
+</header>
+
+<section class="lecture">
+    <div class="lecture-text">
+        <h5>Ашық кілті және ЭЦҚ бар криптографиялық жүйе</h5>
+        <a href="{{ url_for('redirect_start') }}" class="ctea"><i class="ri-play-line"></i>Бастау</a>
+    </div>
+    <div class="lecture-img">
+        <img src="static/Image/web.png">
+    </div>
+</section>
+
+</body>
+</html>
